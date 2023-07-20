@@ -9,7 +9,6 @@ import subprocess
 from os import listdir, path, getcwd
 from PIL import Image
 from PyQt5 import uic, QtGui  # Импортируем uic
-import paramiko
 from PyQt5.QtCore import Qt, QPoint, pyqtSignal, QSize, QTimer, QRect
 from PyQt5.QtGui import QIcon, QPixmap, QFont, QColor, QTextCursor
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTreeWidgetItem, QListWidgetItem, QWidget, QFileDialog, \
